@@ -1,0 +1,450 @@
+@media screen and (max-width:1800px) {
+	.desktop-menu {
+		grid-gap: 40px;
+	}
+	.footer-links li a {
+		padding: 0 36px;
+	}
+}
+
+@media screen and (max-width:1600px) {
+	.site-logo img {
+		max-width: 245px;
+	}
+	.site-banner {
+		height: 950px;
+	}
+	.img-text-layout-content h3 {
+		font-size: 72px;
+	}
+	.img-text-layout-content li {
+		font-size: 92px;
+	}
+	
+	.footer-top {
+		grid-template-columns: 1fr 2fr 1fr;
+	}
+	.thankyou-section {
+		height: 1080px;
+	}
+	.error404-content h4 {
+		margin-top: -20px;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	.container {
+        max-width: calc(100% - 20px);
+    }
+	.desktop-menu {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+
+	.desktop-menu .site-nav {
+		display: none;
+	}
+
+	.site-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		max-width: 350px;
+		background: var(--black);
+		transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+		transform: translateX(-100%);
+		z-index: 99;
+	}
+
+	.site-nav ul {
+		display: block;
+		padding: 100px 60px 0;
+	}
+
+	.site-nav li {
+		margin: 0 0 20px;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+
+	.closed-menu {
+		font-size: 40px;
+		color: #fff;
+		position: absolute;
+		top: 25px;
+		right: 15px;
+		display: inline-block;
+	}
+
+	.toggle .site-nav {
+		transform: translateX(0);
+	}
+
+	.site-logo img {
+		max-width: 300px;
+	}
+	.site-banner {
+		height: 800px;
+	}
+
+	.banner-content h1 {
+		font-size: 92px;
+	}
+	.img-text-layout-content h3 {
+		font-size: 64px;
+	}
+	.img-text-layout-content li {
+		font-size: 78px;
+	}
+	.img-text-layout-content p:not(:last-of-type) {
+		margin: 24px 0;
+	}
+	.experience-card {
+		padding: 42px 10px;
+	}
+	.section-title {
+		font-size: 72px;
+	}
+	.reset-content {
+		gap: 32px;
+	}
+	.footer-links ul {
+		gap: 22px;
+	}
+	.footer-links li a {
+		padding: 0 26px;
+	}
+	.error404-content h4 {
+		font-size: 78px;
+	}
+	.error404-content p {
+		font-size: 42px;
+	}
+	.error404-content .primary-btn {
+		margin: 32px 0;
+	}
+	.error404 .site-nav li a {
+		color: #fff;
+	}
+	.error404 .site-nav li a.secondary-btn {
+		border-color: rgba(255, 255, 255, 0.30);
+	}
+	.error404 .site-nav li a svg path {
+		stroke: #fff;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	
+	.banner-content h1 {
+		font-size: 72px;
+	}
+	.img-text-layout-content {
+		padding: 0;
+	}
+	.img-text-layout-content li {
+		font-size: 68px;
+	}
+	.experience-card-content h2 {
+		font-size: 52px;
+	}
+
+	.experience-card-content > p {
+		margin: 20px 0;
+	}
+	.experience-card-content .service:not(:last-of-type) {
+		margin: 20px 0;
+	}
+	.experience-card-content .service > img {
+		margin: 0 auto 10px;
+	}
+	.section-title {
+		font-size: 58px;
+	}
+	.reset-content {
+		gap: 22px;
+	}
+	.reset-content p {
+		font-size: 24px;
+	}
+	.reset-content p:not(:last-of-type) {
+		margin: 0 0 16px;
+	}
+	.social-icons ul {
+		gap: 14px;
+	}
+	.thankyou-section {
+		height: 950px;
+	}
+	.error404-sec {
+		height: 750px;
+	}
+	.error404-content h1 {
+		margin-top: 0;
+	}
+	
+	
+}
+
+@media screen and (max-width:1024px) {
+	.footer-top {
+		grid-template-columns: 1fr 1.5fr 1fr;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.img-text-layout-wrap .grid {
+		grid-template-columns: 100%;
+	}
+	.img-text-layout-wrap .grid:nth-child(2) .item:last-child {
+		grid-row: 1;
+	}
+	.experience-card-warp .grid {
+		grid-template-columns: 1fr 1fr;
+	}
+	.primary-btn {
+		padding: 18px 42px;
+		font-size: 16px;
+	}
+	.footer-top {
+		grid-template-columns: 100%;
+		grid-gap: 40px;
+	}
+	.footer-links li a {
+		font-size: 22px;
+	}
+	.social-icons ul {
+		justify-content: center;
+	}
+	.footer-logo a {
+		margin: 0 auto;
+	}
+	.img-text-layout {
+		padding: 80px 0;
+	}
+	.img-text-layout-wrap .grid:not(:last-of-type) {
+		margin-bottom: 80px;
+	}
+	.thrive-expriences {
+		padding: 80px 0;
+	}
+	.reset-sec {
+		padding: 130px 0;
+	}
+	.img-text-layout-content h3 {
+		font-size: 48px;
+		max-width: 100%;
+	}
+	.img-text-layout-content p {
+		font-size: 22px;
+	}
+	.img-text-layout-content li {
+		font-size: 48px;
+	}
+	.thankyou-section-content h1 {
+		font-size: 94px;
+	}
+	.thankyou-section-content h4 {
+		font-size: 48px;
+	}
+	.error404-content h4 {
+		font-size: 58px;
+	}
+	.error404-content p {
+		font-size: 34px;
+	}
+}
+
+
+@media screen and (max-width:767px) {
+	.site-logo img {
+		max-width:220px;
+	}
+	.banner-content h1 {
+		font-size: 62px;
+	}
+	.banner-content p {
+		margin: 30px auto 30px;
+	}
+	.section-title {
+		font-size: 44px;
+	}
+	.sub-title {
+		font-size: 24px;
+	}
+	.experience-card-warp .grid {
+		grid-template-columns: 100%;
+	}
+	.reset-content p {
+		font-size: 22px;
+	}
+	.img-text-layout-content h3 {
+		font-size: 38px;
+	}
+	.img-text-layout-content li {
+		font-size: 38px;
+	}
+	.experience-card-warp {
+		margin-top: 42px;
+	}
+	.experience-card-content h2 {
+		font-size: 42px;
+	}
+	.experience-card-content > p {
+		font-size: 22px;
+		margin: 10px 0;
+	}
+	.experience-card-content .service h3 {
+		font-size: 22px;
+	}
+	.experience-card-content .service:not(:last-of-type) {
+		margin: 10px 0;
+	}
+	.site-nav li a.secondary-btn {
+		padding: 12px 24px;
+		font-size: 16px;
+	}
+
+	.thankyou-section-content {
+		padding: 54px 20px;
+	}
+	.thankyou-section-content p {
+		margin: 24px 0;
+		font-size: 22px;
+	}
+	.thankyou-section-content .social-icons {
+		margin-top: 24px;
+	}
+	.thankyou-section {
+		height: 100dvh;
+	}
+	.thankyou-section-content h1 {
+		font-size: 58px;
+	}
+	.error404-content h4 {
+		font-size: 48px;
+		margin: 0;
+	}
+	.error404-content p {
+		font-size: 28px;
+	}
+
+}
+
+@media screen and (max-width:575px) {
+	.container {
+		max-width: calc(100% - 5px);
+	}
+	.site-header .container {
+		padding: 24px  15px;
+	}
+	.site-nav {
+		max-width: 100%;
+	}
+
+	.site-logo img {
+		max-width: 180px;
+	}
+	.site-banner {
+		height:100vh;
+	}
+
+	.banner-content h1 {
+		font-size: 48px;
+	}
+	.banner-content p {
+		font-size: 20px;
+	}
+	.section-title {
+		font-size: 36px;
+	}
+	.sub-title {
+		font-size: 20px;
+	}
+
+	.reset-content p {
+		font-size: 18px;
+	}
+	.footer-links li a {
+		padding: 0 10px;
+	}
+	.footer-bottom {
+		gap: 30px;
+	}
+	.iqsay_logo {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-bottom p {
+		width: 100%;
+		text-align: center;
+	}
+	.site-footer {
+		padding: 80px 0 10px;
+	}
+	.footer-logo a {
+		max-width: 330px;
+	}
+	.img-text-layout {
+		padding: 50px 0;
+	}
+	.img-text-layout-wrap .grid:not(:last-of-type) {
+		margin-bottom: 50px;
+	}
+	.thrive-expriences {
+		padding: 50px 0;
+	}
+	.img-text-layout-content h3 {
+		font-size: 32px;
+	}
+	.img-text-layout-content p {
+		font-size: 20px;
+	}
+	.img-text-layout-content p:not(:last-of-type) {
+		margin: 14px 0;
+	}
+	.experience-card-content .service > img {
+		width: 48px;
+		height: 48px;
+	}
+	
+	.thankyou-section-content h4 {
+		font-size: 34px;
+	}
+	.thankyou-section-content p {
+		font-size: 20px;
+	}
+	.error404-content h4 {
+		font-size: 40px;
+	}
+	.error404-sec {
+		height: 100dvh;
+	}
+
+}
+
+@media screen and (max-width:460px){
+	.container {
+		max-width: calc(100% - 0px);
+	}
+	.footer-links li a {
+		font-size: 20px;
+	}
+	.social-icons li a {
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+	}
+	.thankyou-section-content h4 {
+		font-size: 26px;
+	}
+}
