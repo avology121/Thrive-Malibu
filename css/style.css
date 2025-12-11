@@ -945,10 +945,6 @@ section.after_banner {
 }
 
 /* Internal full width Images section CSS Start   */
-.internal-fullwidth-image-section{
-    width: 100vw;
-    margin-left: calc(50% - 50vw)
-}
 /* Internal full width Images section CSS End   */
 
 /* Gallery CSS Start  */
