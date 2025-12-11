@@ -1066,3 +1066,8 @@ section.after_banner {
     font-size: 32px;
     line-height: 160%;
 }
+
+.vegas_content {
+    width: 100%;
+    overflow: hidden;
+}
