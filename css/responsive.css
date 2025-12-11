@@ -485,6 +485,10 @@
 		margin-bottom: 0 !important;
 	}
 
+	.vegas_content .primary-btn {
+    margin-top: 27px;
+}
+
 }
 
 @media screen and (max-width:575px) {
@@ -617,6 +621,9 @@
 	}
 	.banner_btn_grp {
 		flex-direction: column;
+}
+.vegas_content .primary-btn {
+    margin-top: 20px;
 }
 }
 
