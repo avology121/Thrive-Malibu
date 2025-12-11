@@ -143,9 +143,7 @@
 	.error404 .site-nav li a svg path {
 		stroke: #fff;
 	}
-	.after_banner_content h2 {
-		font-size: 72px;
-	}
+	
 	.after_banner_content {
 		gap: 60px;
 	}
@@ -214,9 +212,7 @@
 	.error404-content h1 {
 		margin-top: 0;
 	}
-	.after_banner_content h2 {
-		font-size: 64px;
-	}
+	
 	.after_banner_content {
 		gap: 50px;
 	}
@@ -444,9 +440,7 @@
 		flex-direction: column;
 		gap: 30px;
 	}
-	.after_banner_content h2 {
-		font-size: 48px;
-	}
+	
 	section.after_banner {
 		padding: 30px 0;
 	}
@@ -582,9 +576,7 @@
 	.error404-sec {
 		height: 100dvh;
 	}
-	.after_banner_content h2 {
-		font-size: 40px;
-	}
+	
 	.after_banner_content {
 		gap: 24px;
 	}
@@ -636,9 +628,7 @@
 	.internal-gallery-container {
 		padding: 30px 20px;
 	}  
-	.after_banner_content h2 {
-		font-size: 36px;
-	}
+	
 	.after_banner_content {
 		gap: 20px;
 	}
@@ -691,9 +681,7 @@
 	.thankyou-section-content h4 {
 		font-size: 26px;
 	}
-	.after_banner_content h2 {
-		font-size: 32px;
-	}
+	
 	.after_banner_content {
 		gap: 18px;
 	}
