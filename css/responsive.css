@@ -141,6 +141,27 @@
 	.error404 .site-nav li a svg path {
 		stroke: #fff;
 	}
+	.after_banner_content h2 {
+		font-size: 72px;
+	}
+	.after_banner_content {
+		gap: 60px;
+	}
+	.strip_inner_text h2 {
+		font-size: 72px;
+	}
+	.strip_inner_text p {
+		font-size: 28px;
+	}
+	.strip_inner_text ul li {
+		font-size: 28px;
+	}
+	.strip_inner_text {
+		padding: 30px 50px;
+	}
+	.vegas_content .row {
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width:1200px) {
@@ -191,13 +212,40 @@
 	.error404-content h1 {
 		margin-top: 0;
 	}
-	
+	.after_banner_content h2 {
+		font-size: 64px;
+	}
+	.after_banner_content {
+		gap: 50px;
+	}
+	section.after_banner {
+		padding: 40px 0;
+	}
+	.strip_inner_text h2 {
+		font-size: 64px;
+	}
+	.strip_inner_text p {
+		font-size: 26px;
+	}
+	.strip_inner_text ul li {
+		font-size: 26px;
+	}
+	.strip_inner_text {
+		padding: 30px 40px;
+	}
+	.vegas_content {
+		padding: 0 15px;
+	}
 	
 }
 
 @media screen and (max-width:1024px) {
 	.footer-top {
 		grid-template-columns: 1fr 1.5fr 1fr;
+	}
+	.gallery-grid {
+		grid-template-columns: repeat(3, 1fr) !important;
+		gap: 18px;
 	}
 }
 
@@ -261,6 +309,42 @@
 	}
 	.error404-content p {
 		font-size: 34px;
+	}
+	.strip_inner_text h2 {
+		font-size: 56px;
+	}
+	.strip_inner_text p {
+		font-size: 24px;
+	}
+	.strip_inner_text ul li {
+		font-size: 24px;
+	}
+	.strip_inner_text {
+		padding: 30px 35px;
+	}
+	.strip_inner_text ul li::before {
+		font-size: 50px;
+		top: -18px;
+	}
+	.vegas_content .row {
+		margin-bottom: 0 !important;
+	}
+	.vegas_content .row .col-lg-6 {
+		margin-bottom: 0;
+	}
+	.strio_inner_img {
+		aspect-ratio: 16 / 9;
+		min-height: 300px;
+	}
+	.vegas_content .second-row {
+		margin-bottom: 0;
+	}
+	.las_vegas_strip {
+		padding: 40px 0;
+	}
+
+	.internal-gallery-container {
+		padding: 40px;
 	}
 }
 
@@ -336,6 +420,68 @@
 	}
 	.error404-content p {
 		font-size: 28px;
+	}
+
+	.gallery-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+		gap: 12px;
+	}
+
+	.gallery-btn-wrap {
+		margin-top: 24px !important;
+	}
+
+
+	
+	.after_banner_content {
+		flex-direction: column;
+		gap: 30px;
+	}
+	.after_banner_content h2 {
+		font-size: 48px;
+	}
+	section.after_banner {
+		padding: 30px 0;
+	}
+	.strip_inner_text h2 {
+		font-size: 48px;
+	}
+	.strip_inner_text p {
+		font-size: 22px;
+	}
+	.strip_inner_text ul li {
+		font-size: 22px;
+		padding-left: 24px;
+		padding-bottom: 12px;
+	}
+	.strip_inner_text {
+		padding: 30px 25px;
+	}
+	.strip_inner_text ul li::before {
+		font-size: 42px;
+		top: -16px;
+		left: 0;
+	}
+	.strio_inner_img {
+		aspect-ratio: 16 / 9;
+		min-height: 250px;
+	}
+	.vegas_content .row .col-lg-6:first-child {
+		margin-bottom: 0;
+	}
+	.vegas_content .row .col-lg-6:last-child {
+		margin-bottom: 0;
+	}
+	.strip_inner_text .primary-btn {
+		width: 100%;
+		padding: 20px 32px;
+		font-size: 16px;
+	}
+	.las_vegas_strip {
+		padding: 30px 0;
+	}
+	.vegas_content .row {
+		margin-bottom: 0 !important;
 	}
 
 }
@@ -429,6 +575,97 @@
 	.error404-sec {
 		height: 100dvh;
 	}
+	.after_banner_content h2 {
+		font-size: 40px;
+	}
+	.after_banner_content {
+		gap: 24px;
+	}
+	section.after_banner {
+		padding: 24px 0;
+	}
+	.strip_inner_text h2 {
+		font-size: 40px;
+	}
+	.strip_inner_text p {
+		font-size: 20px;
+	}
+	.strip_inner_text ul li {
+		font-size: 20px;
+		padding-left: 20px;
+		padding-bottom: 10px;
+	}
+	.strip_inner_text {
+		padding: 24px 20px;
+	}
+	.strip_inner_text ul li::before {
+		font-size: 36px;
+		top: -14px;
+	}
+	.strio_inner_img {
+		aspect-ratio: 4 / 3;
+		min-height: 220px;
+	}
+	.strip_inner_text .primary-btn {
+		padding: 18px 28px;
+		font-size: 15px;
+	}
+	.las_vegas_strip {
+		padding: 24px 0;
+	}
+	.strip_inner_text h2.mb-3 {
+		margin-bottom: 16px !important;
+	}
+	.banner_btn_grp {
+		flex-direction: column;
+}
+}
+
+@media screen and (max-width:480px){
+	.gallery-grid {
+		grid-template-columns: 1fr !important;
+	}
+
+	.internal-gallery-container {
+		padding: 30px 20px;
+	}  
+	.after_banner_content h2 {
+		font-size: 36px;
+	}
+	.after_banner_content {
+		gap: 20px;
+	}
+	section.after_banner {
+		padding: 20px 0;
+	}
+	.strip_inner_text h2 {
+		font-size: 36px;
+	}
+	.strip_inner_text p {
+		font-size: 18px;
+	}
+	.strip_inner_text ul li {
+		font-size: 18px;
+		padding-left: 18px;
+		padding-bottom: 8px;
+	}
+	.strip_inner_text {
+		padding: 20px 16px;
+	}
+	.strip_inner_text ul li::before {
+		font-size: 32px;
+		top: -12px;
+	}
+	.strio_inner_img {
+		min-height: 200px;
+	}
+	.strip_inner_text .primary-btn {
+		padding: 16px 24px;
+		font-size: 14px;
+	}
+	.new-internal .banner-content h1 {
+		font-size: 39px;
+	}
 
 }
 
@@ -446,5 +683,27 @@
 	}
 	.thankyou-section-content h4 {
 		font-size: 26px;
+	}
+	.after_banner_content h2 {
+		font-size: 32px;
+	}
+	.after_banner_content {
+		gap: 18px;
+	}
+	.strip_inner_text h2 {
+		font-size: 32px;
+	}
+	.strip_inner_text p {
+		font-size: 17px;
+	}
+	.strip_inner_text ul li {
+		font-size: 17px;
+	}
+	.strip_inner_text {
+		padding: 18px 14px;
+	}
+	.strip_inner_text .primary-btn {
+		padding: 14px 20px;
+		font-size: 13px;
 	}
 }
