@@ -1000,12 +1000,13 @@ section.after_banner {
     margin: 0 auto;
 }
 
-.strip_inner_text h2 {
+.after_banner_content h2 {
     font-family: Cormorant Garamond;
-    font-weight: 500;
-    font-size: 84px;
-    line-height: 130%;
-
+    font-weight: 300;
+    font-size: clamp(32px, 4vw, 84px);
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
 }
 
 .strip_inner_text a h2 {
