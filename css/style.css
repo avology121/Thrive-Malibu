@@ -1061,10 +1061,13 @@ section.after_banner {
     font-weight: 300;
     font-size: 32px;
     line-height: 160%;
-    padding-bottom: 35px;
 }
 
 .vegas_content {
     width: 100%;
     overflow: hidden;
+}
+
+.vegas_content .primary-btn {
+    margin-top: 35px;
 }
