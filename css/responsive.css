@@ -30,10 +30,7 @@
 	.error404-content h4 {
 		margin-top: -20px;
 	}
-	.after_banner_content {
-    flex-direction: column;
-    gap: 30px;
-}
+	
 
 }
 
@@ -351,6 +348,11 @@
 	.internal-gallery-container {
 		padding: 40px;
 	}
+
+	.after_banner_content {
+    flex-direction: column;
+    gap: 30px;
+}
 }
 
 
