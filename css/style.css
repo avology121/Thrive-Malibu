@@ -993,7 +993,7 @@ section.after_banner {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding: 30px 70px 30px 70px;
+    padding: 30px 70px 40px 70px;
     background: rgb(249 249 249);
     height: 100%;
     max-width: 800px;
