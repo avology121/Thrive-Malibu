@@ -996,6 +996,8 @@ section.after_banner {
     padding: 30px 70px 30px 70px;
     background: rgb(249 249 249);
     height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .strip_inner_text h2 {
